@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "esnext",
+    "lib": [
+      "es6",
+      "es2019",
+      "dom",
+      "esnext.asynciterable"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "noImplicitUseStrict": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src/index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "test",
+    "coverage"
+  ],
+  "types": [
+    "typePatches",
+    "mocha",
+    "node"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  }
+}
