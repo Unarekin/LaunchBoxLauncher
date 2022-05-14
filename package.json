@@ -1,0 +1,19 @@
+{
+  "name": "launchboxlauncher",
+  "version": "1.0.0",
+  "description": "Small utility to either focus or launch LaunchBox on pressing the xbox button on an xbox controller.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npx mocha test/**.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unarekin/LaunchBoxLauncher.git"
+  },
+  "author": "Erica Phelps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Unarekin/LaunchBoxLauncher/issues"
+  },
+  "homepage": "https://github.com/Unarekin/LaunchBoxLauncher#readme"
+}
