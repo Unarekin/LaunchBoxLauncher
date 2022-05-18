@@ -2,12 +2,11 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "../out-tsc/e2e",
+    "sourceRoot": ".",
     "module": "commonjs",
-    "types": [
-      "node"
-    ]
+    "types":["node"]
   },
   "include": [
-    "**.spec.ts"
-  ],
+    "**/*.spec.ts"
+  ]
 }
